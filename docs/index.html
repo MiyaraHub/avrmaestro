@@ -3,43 +3,136 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>AVR Maestro - The premium controller for Denon &amp; Marantz</title>
-<meta name="description" content="AVR Maestro is the premium network controller for Denon and Marantz AV receivers, in 28 languages: one-tap Scenes, Home Assistant and Hubitat automation, full speaker preset control, Audyssey and Dirac Live, on-screen display control, multi-zone, FM/AM tuner, and a deep virtual remote. No ads, no subscriptions, no cloud account." />
+<title>Remote App for Denon &amp; Marantz AV Receivers - AVR Maestro</title>
+<meta name="description" content="AVR Maestro is an independent remote app for Denon and Marantz AV receivers: one-tap Scenes, Audyssey and Dirac Live, speaker presets, multi-zone and more." />
 <meta name="keywords" content="Denon receiver app, Marantz receiver app, Denon remote app, Marantz remote app, AV receiver controller app, AVR Maestro, HEOS controller, Audyssey app, Dirac Live controller, Marantz Cinema 30 app, Denon X3800H app, Denon AVR-A1H app, multi-zone receiver control, FM AM tuner app, Dolby Atmos receiver control, home theater remote app, Denon Home Assistant, Marantz Home Assistant, AV receiver Alexa, receiver Google Assistant, Hubitat AV receiver, Denon on screen display app, receiver speaker layout app" />
 <meta name="author" content="MiyaraHub Technologies LLC" />
 <meta name="robots" content="index, follow, max-image-preview:large" />
 <meta name="theme-color" content="#ff6e40" />
 <link rel="canonical" href="https://avrmaestro.com/" />
-<meta name="google-site-verification" content="0j6Y0o69x3vb30RFuNJrwDbqHm-0GrulYeQNMb5X_kM" />
-<meta property="og:title" content="AVR Maestro for Denon &amp; Marantz" />
-<meta property="og:description" content="One-tap Scenes that become Home Assistant scripts, full speaker preset control, Audyssey and Dirac Live, on-screen display control, multi-zone and a deep remote. The control your receiver always deserved." />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://avrmaestro.com/" />
 <meta property="og:site_name" content="AVR Maestro" />
-<meta property="og:image" content="https://avrmaestro.com/screenshots/dashboard.png" />
-<meta property="og:image:alt" content="AVR Maestro Home screen for Denon and Marantz receivers" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:title" content="Remote App for Denon &amp; Marantz AV Receivers - AVR Maestro" />
+<meta property="og:description" content="AVR Maestro is an independent remote app for Denon and Marantz AV receivers: one-tap Scenes, Audyssey and Dirac Live, speaker presets, multi-zone and more." />
+<meta property="og:url" content="https://avrmaestro.com/" />
+<meta property="og:image" content="https://avrmaestro.com/assets/og-card.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="AVR Maestro, an independent remote app for Denon and Marantz AV receivers" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="AVR Maestro for Denon &amp; Marantz" />
-<meta name="twitter:description" content="One-tap Scenes that become Home Assistant scripts, speaker preset control, Audyssey and Dirac Live, on-screen display, multi-zone and a deep remote. No ads, no subscriptions." />
-<meta name="twitter:image" content="https://avrmaestro.com/screenshots/dashboard.png" />
-<link rel="icon" href="assets/favicon.ico" sizes="any" />
-<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png" />
-<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
-<link rel="icon" type="image/png" sizes="48x48" href="assets/favicon-48.png" />
-<link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+<meta name="twitter:title" content="Remote App for Denon &amp; Marantz AV Receivers - AVR Maestro" />
+<meta name="twitter:description" content="AVR Maestro is an independent remote app for Denon and Marantz AV receivers: one-tap Scenes, Audyssey and Dirac Live, speaker presets, multi-zone and more." />
+<meta name="twitter:image" content="https://avrmaestro.com/assets/og-card.png" />
+<meta name="twitter:image:alt" content="AVR Maestro, an independent remote app for Denon and Marantz AV receivers" />
+<link rel="icon" href="/assets/favicon.ico" sizes="any" />
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
+<link rel="icon" type="image/png" sizes="48x48" href="/assets/favicon-48.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
+<meta name="google-site-verification" content="0j6Y0o69x3vb30RFuNJrwDbqHm-0GrulYeQNMb5X_kM" />
 <link rel="stylesheet" href="assets/site.css" />
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://avrmaestro.com/#organization",
+      "name": "MiyaraHub Technologies LLC",
+      "url": "https://miyarahub.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://avrmaestro.com/assets/logo-square.jpg",
+        "width": 2048,
+        "height": 2048
+      },
+      "sameAs": [
+        "https://github.com/MiyaraHub"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://avrmaestro.com/#website",
+      "url": "https://avrmaestro.com/",
+      "name": "AVR Maestro",
+      "description": "AVR Maestro is an independent app for controlling Denon and Marantz AV receivers over your local network.",
+      "publisher": {
+        "@id": "https://avrmaestro.com/#organization"
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://avrmaestro.com/#webpage",
+      "url": "https://avrmaestro.com/",
+      "name": "Remote App for Denon & Marantz AV Receivers - AVR Maestro",
+      "description": "AVR Maestro is an independent remote app for Denon and Marantz AV receivers: one-tap Scenes, Audyssey and Dirac Live, speaker presets, multi-zone and more.",
+      "isPartOf": {
+        "@id": "https://avrmaestro.com/#website"
+      },
+      "about": {
+        "@id": "https://avrmaestro.com/#app"
+      },
+      "publisher": {
+        "@id": "https://avrmaestro.com/#organization"
+      },
+      "inLanguage": "en"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
   "@type": "SoftwareApplication",
+  "@id": "https://avrmaestro.com/#app",
   "name": "AVR Maestro",
-  "operatingSystem": "Android, iOS, Windows, macOS",
-  "applicationCategory": "MultimediaApplication",
-  "description": "Premium network controller for Denon and Marantz AV receivers: one-tap Scenes, full speaker preset control, Audyssey and Dirac Live, multi-zone, FM/AM tuner and a deep virtual remote.",
+  "description": "An independent app for Denon and Marantz AV receivers: one-tap Scenes, Home Assistant and Hubitat automation, speaker preset control, Audyssey and Dirac Live, multi-zone, an FM/AM tuner and a deep virtual remote, over your local network.",
   "url": "https://avrmaestro.com/",
-  "image": "https://avrmaestro.com/screenshots/dashboard.png",
-  "author": { "@type": "Organization", "name": "MiyaraHub Technologies LLC", "url": "https://miyarahub.com" },
-  "offers": { "@type": "Offer", "price": "9.99", "priceCurrency": "USD" },
+  "image": "https://avrmaestro.com/assets/avr-maestro-icon.png",
+  "screenshot": [
+    "https://avrmaestro.com/screenshots/dashboard.png",
+    "https://avrmaestro.com/screenshots/remote-main.png",
+    "https://avrmaestro.com/screenshots/sound-audyssey.png",
+    "https://avrmaestro.com/screenshots/sound-dirac.png",
+    "https://avrmaestro.com/screenshots/speakers-layout.png",
+    "https://avrmaestro.com/screenshots/scenes-list.png",
+    "https://avrmaestro.com/screenshots/zones.png",
+    "https://avrmaestro.com/screenshots/radio.png",
+    "https://avrmaestro.com/screenshots/settings-main.png",
+    "https://avrmaestro.com/screenshots/home-automation.png",
+    "https://avrmaestro.com/screenshots/on-screen-display.png",
+    "https://avrmaestro.com/screenshots/signal-info.png",
+    "https://avrmaestro.com/screenshots/speakers-distances.png",
+    "https://avrmaestro.com/screenshots/remote-inputs.png",
+    "https://avrmaestro.com/screenshots/settings-tjmode.png"
+  ],
+  "operatingSystem": "Android, iOS, macOS, Windows",
+  "applicationCategory": "MultimediaApplication",
+  "softwareRequirements": "A network-enabled Denon or Marantz AV receiver on the same local network, with Network Control enabled on the receiver",
+  "installUrl": [
+    "https://play.google.com/store/apps/details?id=com.miyarahub.avr_maestro",
+    "https://apps.apple.com/us/app/avr-maestro-for-denon-marantz/id6762881597",
+    "https://apps.microsoft.com/detail/9P4M7W4J5106"
+  ],
+  "sameAs": [
+    "https://play.google.com/store/apps/details?id=com.miyarahub.avr_maestro",
+    "https://apps.apple.com/us/app/avr-maestro-for-denon-marantz/id6762881597",
+    "https://apps.microsoft.com/detail/9P4M7W4J5106"
+  ],
+  "author": {
+    "@id": "https://avrmaestro.com/#organization"
+  },
+  "publisher": {
+    "@id": "https://avrmaestro.com/#organization"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "9.99",
+    "priceCurrency": "USD"
+  },
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "4.9",
@@ -53,36 +146,55 @@
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
+  "@id": "https://avrmaestro.com/#faq",
   "mainEntity": [
     {
       "@type": "Question",
       "name": "Is there a better app to control a Denon or Marantz receiver?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Yes. AVR Maestro is a premium third-party controller built specifically for Denon and Marantz AV receivers. It surfaces controls the official apps bury, adds one-tap Scenes the official apps don't have, and reaches Audyssey, Dirac Live, speaker presets, multi-zone and the tuner from one place." }
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes - AVR Maestro is a premium third-party controller built specifically for Denon and Marantz AV receivers. It surfaces controls the official apps bury, adds one-tap Scenes the official apps don't have, and reaches Audyssey, Dirac Live, speaker presets, multi-zone and the tuner from one place."
+      }
     },
     {
       "@type": "Question",
       "name": "Does AVR Maestro work with my Denon or Marantz receiver?",
-      "acceptedAnswer": { "@type": "Answer", "text": "It works with modern network-enabled Denon and Marantz AV receivers - the Cinema series (Cinema 30/40/50/60), the Denon AVR-X and AVR-A series (X1800H through AVR-A1H), the SR/NR series and more. AVR Maestro reads each receiver's capabilities on connect and only shows what yours exposes." }
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It works with modern network-enabled Denon and Marantz AV receivers - the Cinema series (Cinema 30/40/50/60), the Denon AVR-X and AVR-A series (X1800H through AVR-A1H), the SR/NR series and more. AVR Maestro reads each receiver's capabilities on connect and only shows what yours actually exposes. See the full list of supported receivers."
+      }
     },
     {
       "@type": "Question",
       "name": "Do I need a subscription or a cloud account?",
-      "acceptedAnswer": { "@type": "Answer", "text": "No. AVR Maestro is a one-time purchase - no subscriptions, no ads, no cloud account. It talks to your receiver directly over your local network, so nothing about your setup leaves your home." }
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. AVR Maestro is a one-time purchase - no subscriptions, no ads, no cloud account. It talks to your receiver directly over your local network, so nothing about your setup leaves your home."
+      }
     },
     {
       "@type": "Question",
       "name": "Can it control Audyssey MultEQ and Dirac Live?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Yes. AVR Maestro switches Audyssey MultEQ curves, Dynamic EQ, Dynamic Volume and LFC, and on a Dirac Live receiver it lists your filter slots by name and switches the active one." }
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. AVR Maestro switches Audyssey MultEQ curves, Dynamic EQ, Dynamic Volume and LFC, and on a Dirac Live receiver it lists your filter slots by name and switches the active one. See the Audyssey & Dirac control guide."
+      }
     },
     {
       "@type": "Question",
       "name": "Does it support multi-zone (Zone 2 and Zone 3)?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Yes - independent power, input, volume and Quick/Smart Select recall for Zone 2 and Zone 3, so you can run whole-house audio from your phone." }
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes - independent power, input, volume and Quick/Smart Select recall for Zone 2 and Zone 3, so you can run whole-house audio from your phone."
+      }
     },
     {
       "@type": "Question",
       "name": "Is AVR Maestro made by Denon or Marantz?",
-      "acceptedAnswer": { "@type": "Answer", "text": "No. AVR Maestro is an independent app by MiyaraHub Technologies and is not affiliated with Denon, Marantz or Sound United. It uses the receivers' own network protocol to control them." }
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. AVR Maestro is an independent app made by MiyaraHub Technologies LLC. It is not affiliated with, endorsed by, or sponsored by Denon, Marantz, D&M Holdings or Sound United. It controls your receiver over your local network using the receiver's own network protocol."
+      }
     }
   ]
 }
@@ -92,7 +204,7 @@
 
 <header class="nav">
   <div class="wrap">
-    <a class="brand" href="/"><img class="brandmark" src="assets/avr-maestro-icon.png" alt="AVR Maestro icon" /> AVR Maestro</a>
+    <a class="brand" href="/"><img class="brandmark" src="/assets/avr-maestro-icon-64.png" alt="AVR Maestro" width="30" height="30" decoding="async" /> AVR Maestro</a>
     <button class="nav-toggle" aria-label="Menu" onclick="document.getElementById('m').classList.toggle('open')">&#9776;</button>
     <nav id="m">
       <a href="/" class="active">Home</a>
@@ -111,7 +223,7 @@
   <div class="wrap">
     <div>
       <div class="eyebrow">For Denon &amp; Marantz</div>
-      <h1>The control your receiver <span class="g">always deserved.</span></h1>
+      <h1>The control your Denon or Marantz receiver <span class="g">always deserved.</span></h1>
       <p>AVR Maestro is a premium network controller for Denon and Marantz AV receivers. It speaks their native protocols and surfaces the features the official apps bury - or skip entirely. No ads. No subscriptions. No data leaves your network.</p>
       <div class="rating" aria-label="Average user rating">
         <span class="stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
@@ -137,7 +249,7 @@
         <span class="pill">No ads, ever</span>
       </div>
     </div>
-    <div class="hero-shot"><img alt="AVR Maestro Home screen" src="screenshots/dashboard.png" /></div>
+    <div class="hero-shot"><img alt="AVR Maestro Home screen with Smart Select, volume, source and sound mode for a Marantz CINEMA 30" src="screenshots/dashboard.png" width="1324" height="2644" fetchpriority="high" /></div>
   </div>
 </div>
 
@@ -188,21 +300,21 @@
       <p class="lead">The current app - dashboard, remote, sound modes, Audyssey &amp; Dirac, speaker setup, scenes, multi-zone and the tuner.</p>
     </div>
     <div class="shots-grid">
-        <button class="shot" onclick="avrLb('screenshots/dashboard.png')" aria-label="AVR Maestro - Dashboard"><img src="screenshots/dashboard.png" loading="lazy" alt="AVR Maestro Home screen showing a Marantz CINEMA 30 playing Dolby Atmos" /><span class="shot-plat">Dashboard</span></button>
-        <button class="shot" onclick="avrLb('screenshots/remote-main.png')" aria-label="AVR Maestro - Remote"><img src="screenshots/remote-main.png" loading="lazy" alt="AVR Maestro Remote showing Dolby Atmos in and a 7.2.4 speaker layout out" /><span class="shot-plat">Remote</span></button>
-        <button class="shot" onclick="avrLb('screenshots/sound-audyssey.png')" aria-label="AVR Maestro - Audyssey"><img src="screenshots/sound-audyssey.png" loading="lazy" alt="AVR Maestro - Audyssey" /><span class="shot-plat">Audyssey</span></button>
-        <button class="shot" onclick="avrLb('screenshots/sound-dirac.png')" aria-label="AVR Maestro - Dirac Live"><img src="screenshots/sound-dirac.png" loading="lazy" alt="AVR Maestro - Dirac Live" /><span class="shot-plat">Dirac Live</span></button>
-        <button class="shot" onclick="avrLb('screenshots/speakers-layout.png')" aria-label="AVR Maestro - Speakers"><img src="screenshots/speakers-layout.png" loading="lazy" alt="AVR Maestro speaker layout with amp assignment and Front Speaker selection" /><span class="shot-plat">Speakers</span></button>
-        <button class="shot" onclick="avrLb('screenshots/scenes-list.png')" aria-label="AVR Maestro - Scenes"><img src="screenshots/scenes-list.png" loading="lazy" alt="AVR Maestro - Scenes" /><span class="shot-plat">Scenes</span></button>
-        <button class="shot" onclick="avrLb('screenshots/zones.png')" aria-label="AVR Maestro - Zones"><img src="screenshots/zones.png" loading="lazy" alt="AVR Maestro multi-zone control for Zone 2 and Zone 3" /><span class="shot-plat">Zones</span></button>
-        <button class="shot" onclick="avrLb('screenshots/radio.png')" aria-label="AVR Maestro - FM/AM Tuner"><img src="screenshots/radio.png" loading="lazy" alt="AVR Maestro - FM/AM Tuner" /><span class="shot-plat">FM/AM Tuner</span></button>
-        <button class="shot" onclick="avrLb('screenshots/settings-main.png')" aria-label="AVR Maestro - Settings"><img src="screenshots/settings-main.png" loading="lazy" alt="AVR Maestro settings showing theme, Color Theme accent and display options" /><span class="shot-plat">Settings</span></button>
-        <button class="shot" onclick="avrLb('screenshots/home-automation.png')" aria-label="AVR Maestro - Home Automation"><img src="screenshots/home-automation.png" loading="lazy" alt="AVR Maestro Home Automation for Home Assistant, Hubitat and webhooks" /><span class="shot-plat">Home Automation</span></button>
-        <button class="shot" onclick="avrLb('screenshots/on-screen-display.png')" aria-label="AVR Maestro - On-Screen Display"><img src="screenshots/on-screen-display.png" loading="lazy" alt="AVR Maestro on-screen display settings - volume readout, info banner, 21:9 and screen saver" /><span class="shot-plat">On-Screen Display</span></button>
-        <button class="shot" onclick="avrLb('screenshots/signal-info.png')" aria-label="AVR Maestro - Signal"><img src="screenshots/signal-info.png" loading="lazy" alt="AVR Maestro signal info showing Dolby Atmos audio, 4K60 video, sample rate, color space, colorimetry and pixel depth" /><span class="shot-plat">Signal</span></button>
-        <button class="shot" onclick="avrLb('screenshots/speakers-distances.png')" aria-label="AVR Maestro - Speaker Distances"><img src="screenshots/speakers-distances.png" loading="lazy" alt="AVR Maestro - Speaker Distances" /><span class="shot-plat">Speaker Distances</span></button>
-        <button class="shot" onclick="avrLb('screenshots/remote-inputs.png')" aria-label="AVR Maestro - Inputs"><img src="screenshots/remote-inputs.png" loading="lazy" alt="AVR Maestro - Inputs" /><span class="shot-plat">Inputs</span></button>
-        <button class="shot" onclick="avrLb('screenshots/settings-tjmode.png')" aria-label="AVR Maestro - Themes"><img src="screenshots/settings-tjmode.png" loading="lazy" alt="AVR Maestro - Themes" /><span class="shot-plat">Themes</span></button>
+        <button class="shot" onclick="avrLb('screenshots/dashboard.png')" aria-label="AVR Maestro - Dashboard"><img src="screenshots/dashboard.png" loading="lazy" alt="AVR Maestro Home screen showing a Marantz CINEMA 30 playing Dolby Atmos" width="1324" height="2644" decoding="async" /><span class="shot-plat">Dashboard</span></button>
+        <button class="shot" onclick="avrLb('screenshots/remote-main.png')" aria-label="AVR Maestro - Remote"><img src="screenshots/remote-main.png" loading="lazy" alt="AVR Maestro Remote showing Dolby Atmos in and a 7.2.4 speaker layout out" width="1324" height="2644" decoding="async" /><span class="shot-plat">Remote</span></button>
+        <button class="shot" onclick="avrLb('screenshots/sound-audyssey.png')" aria-label="AVR Maestro - Audyssey"><img src="screenshots/sound-audyssey.png" loading="lazy" alt="AVR Maestro Audyssey page with MultEQ, Dynamic EQ, Reference Level Offset and Dynamic Volume" width="1324" height="2644" decoding="async" /><span class="shot-plat">Audyssey</span></button>
+        <button class="shot" onclick="avrLb('screenshots/sound-dirac.png')" aria-label="AVR Maestro - Dirac Live"><img src="screenshots/sound-dirac.png" loading="lazy" alt="AVR Maestro Dirac Live page listing the filter slots by name" width="1324" height="2644" decoding="async" /><span class="shot-plat">Dirac Live</span></button>
+        <button class="shot" onclick="avrLb('screenshots/speakers-layout.png')" aria-label="AVR Maestro - Speakers"><img src="screenshots/speakers-layout.png" loading="lazy" alt="AVR Maestro speaker layout with amp assignment and Front Speaker selection" width="1324" height="2644" decoding="async" /><span class="shot-plat">Speakers</span></button>
+        <button class="shot" onclick="avrLb('screenshots/scenes-list.png')" aria-label="AVR Maestro - Scenes"><img src="screenshots/scenes-list.png" loading="lazy" alt="AVR Maestro Scenes list with Movie Night, Music and Late Night TV" width="1324" height="2644" decoding="async" /><span class="shot-plat">Scenes</span></button>
+        <button class="shot" onclick="avrLb('screenshots/zones.png')" aria-label="AVR Maestro - Zones"><img src="screenshots/zones.png" loading="lazy" alt="AVR Maestro multi-zone control for Zone 2 and Zone 3" width="1324" height="2644" decoding="async" /><span class="shot-plat">Zones</span></button>
+        <button class="shot" onclick="avrLb('screenshots/radio.png')" aria-label="AVR Maestro - FM/AM Tuner"><img src="screenshots/radio.png" loading="lazy" alt="AVR Maestro FM/AM tuner tuned to 91.70 MHz with numbered station presets" width="1324" height="2648" decoding="async" /><span class="shot-plat">FM/AM Tuner</span></button>
+        <button class="shot" onclick="avrLb('screenshots/settings-main.png')" aria-label="AVR Maestro - Settings"><img src="screenshots/settings-main.png" loading="lazy" alt="AVR Maestro settings showing theme, Color Theme accent and display options" width="1324" height="2644" decoding="async" /><span class="shot-plat">Settings</span></button>
+        <button class="shot" onclick="avrLb('screenshots/home-automation.png')" aria-label="AVR Maestro - Home Automation"><img src="screenshots/home-automation.png" loading="lazy" alt="AVR Maestro Home Automation for Home Assistant, Hubitat and webhooks" width="1324" height="2644" decoding="async" /><span class="shot-plat">Home Automation</span></button>
+        <button class="shot" onclick="avrLb('screenshots/on-screen-display.png')" aria-label="AVR Maestro - On-Screen Display"><img src="screenshots/on-screen-display.png" loading="lazy" alt="AVR Maestro on-screen display settings - volume readout, info banner, 21:9 and screen saver" width="1324" height="2644" decoding="async" /><span class="shot-plat">On-Screen Display</span></button>
+        <button class="shot" onclick="avrLb('screenshots/signal-info.png')" aria-label="AVR Maestro - Signal"><img src="screenshots/signal-info.png" loading="lazy" alt="AVR Maestro signal info showing Dolby Atmos audio, 4K60 video, sample rate, color space, colorimetry and pixel depth" width="1324" height="2644" decoding="async" /><span class="shot-plat">Signal</span></button>
+        <button class="shot" onclick="avrLb('screenshots/speakers-distances.png')" aria-label="AVR Maestro - Speaker Distances"><img src="screenshots/speakers-distances.png" loading="lazy" alt="AVR Maestro speaker distances for every channel" width="1324" height="2644" decoding="async" /><span class="shot-plat">Speaker Distances</span></button>
+        <button class="shot" onclick="avrLb('screenshots/remote-inputs.png')" aria-label="AVR Maestro - Inputs"><img src="screenshots/remote-inputs.png" loading="lazy" alt="AVR Maestro Remote input grid with the current input highlighted" width="1324" height="2644" decoding="async" /><span class="shot-plat">Inputs</span></button>
+        <button class="shot" onclick="avrLb('screenshots/settings-tjmode.png')" aria-label="AVR Maestro - Themes"><img src="screenshots/settings-tjmode.png" loading="lazy" alt="AVR Maestro Settings with the TJ Mode color picker" width="1324" height="2644" decoding="async" /><span class="shot-plat">Themes</span></button>
     </div>
   </div>
 </section>
@@ -224,14 +336,14 @@
       <p class="lead">Every screen, setting and dialog, in your language - auto-detected from your device or chosen in Settings. Hebrew and Arabic mirror the whole layout. What the receiver says stays as the receiver says it. <a href="/guide/languages/">The full list and how it works &rarr;</a></p>
     </div>
     <div class="shots-grid">
-        <button class="shot" onclick="avrLb('screenshots/lang-home-de.png')" aria-label="AVR Maestro in German"><img src="screenshots/lang-home-de.png" loading="lazy" alt="AVR Maestro Home dashboard in German" /><span class="shot-plat">Deutsch</span></button>
-        <button class="shot" onclick="avrLb('screenshots/lang-home-ja.png')" aria-label="AVR Maestro in Japanese"><img src="screenshots/lang-home-ja.png" loading="lazy" alt="AVR Maestro Home dashboard in Japanese" /><span class="shot-plat">日本語</span></button>
-        <button class="shot" onclick="avrLb('screenshots/lang-home-he.png')" aria-label="AVR Maestro in Hebrew, right to left"><img src="screenshots/lang-home-he.png" loading="lazy" alt="AVR Maestro Home dashboard in Hebrew, right to left" /><span class="shot-plat">עברית</span></button>
-        <button class="shot" onclick="avrLb('screenshots/lang-home-ar.png')" aria-label="AVR Maestro in Arabic, right to left"><img src="screenshots/lang-home-ar.png" loading="lazy" alt="AVR Maestro Home dashboard in Arabic, right to left" /><span class="shot-plat">العربية</span></button>
-        <button class="shot" onclick="avrLb('screenshots/lang-home-zh-hans.png')" aria-label="AVR Maestro in Simplified Chinese"><img src="screenshots/lang-home-zh-hans.png" loading="lazy" alt="AVR Maestro Home dashboard in Simplified Chinese" /><span class="shot-plat">简体中文</span></button>
-        <button class="shot" onclick="avrLb('screenshots/lang-home-hi.png')" aria-label="AVR Maestro in Hindi"><img src="screenshots/lang-home-hi.png" loading="lazy" alt="AVR Maestro Home dashboard in Hindi" /><span class="shot-plat">हिन्दी</span></button>
-        <button class="shot" onclick="avrLb('screenshots/lang-home-th.png')" aria-label="AVR Maestro in Thai"><img src="screenshots/lang-home-th.png" loading="lazy" alt="AVR Maestro Home dashboard in Thai" /><span class="shot-plat">ไทย</span></button>
-        <button class="shot" onclick="avrLb('screenshots/lang-language-picker-1.png')" aria-label="The Language list in Settings"><img src="screenshots/lang-language-picker-1.png" loading="lazy" alt="The Language list in AVR Maestro Settings, every language under its own name" /><span class="shot-plat">Settings</span></button>
+        <button class="shot" onclick="avrLb('screenshots/lang-home-de.png')" aria-label="AVR Maestro in German"><img src="screenshots/lang-home-de.png" loading="lazy" alt="AVR Maestro Home dashboard in German" width="1324" height="2644" decoding="async" /><span class="shot-plat">Deutsch</span></button>
+        <button class="shot" onclick="avrLb('screenshots/lang-home-ja.png')" aria-label="AVR Maestro in Japanese"><img src="screenshots/lang-home-ja.png" loading="lazy" alt="AVR Maestro Home dashboard in Japanese" width="1324" height="2644" decoding="async" /><span class="shot-plat">日本語</span></button>
+        <button class="shot" onclick="avrLb('screenshots/lang-home-he.png')" aria-label="AVR Maestro in Hebrew, right to left"><img src="screenshots/lang-home-he.png" loading="lazy" alt="AVR Maestro Home dashboard in Hebrew, right to left" width="1324" height="2644" decoding="async" /><span class="shot-plat">עברית</span></button>
+        <button class="shot" onclick="avrLb('screenshots/lang-home-ar.png')" aria-label="AVR Maestro in Arabic, right to left"><img src="screenshots/lang-home-ar.png" loading="lazy" alt="AVR Maestro Home dashboard in Arabic, right to left" width="1324" height="2644" decoding="async" /><span class="shot-plat">العربية</span></button>
+        <button class="shot" onclick="avrLb('screenshots/lang-home-zh-hans.png')" aria-label="AVR Maestro in Simplified Chinese"><img src="screenshots/lang-home-zh-hans.png" loading="lazy" alt="AVR Maestro Home dashboard in Simplified Chinese" width="1324" height="2644" decoding="async" /><span class="shot-plat">简体中文</span></button>
+        <button class="shot" onclick="avrLb('screenshots/lang-home-hi.png')" aria-label="AVR Maestro in Hindi"><img src="screenshots/lang-home-hi.png" loading="lazy" alt="AVR Maestro Home dashboard in Hindi" width="1324" height="2644" decoding="async" /><span class="shot-plat">हिन्दी</span></button>
+        <button class="shot" onclick="avrLb('screenshots/lang-home-th.png')" aria-label="AVR Maestro in Thai"><img src="screenshots/lang-home-th.png" loading="lazy" alt="AVR Maestro Home dashboard in Thai" width="1324" height="2644" decoding="async" /><span class="shot-plat">ไทย</span></button>
+        <button class="shot" onclick="avrLb('screenshots/lang-language-picker-1.png')" aria-label="The Language list in Settings"><img src="screenshots/lang-language-picker-1.png" loading="lazy" alt="The Language list in AVR Maestro Settings, every language under its own name" width="1324" height="2644" decoding="async" /><span class="shot-plat">Settings</span></button>
     </div>
   </div>
 </section>
@@ -281,7 +393,7 @@
     <details><summary>Do I need a subscription or a cloud account?</summary><div class="body">No. AVR Maestro is a one-time purchase - no subscriptions, no ads, no cloud account. It talks to your receiver directly over your local network, so nothing about your setup leaves your home.</div></details>
     <details><summary>Can it control Audyssey MultEQ and Dirac Live?</summary><div class="body">Yes. AVR Maestro switches Audyssey MultEQ curves, Dynamic EQ, Dynamic Volume and LFC, and on a Dirac Live receiver it lists your filter slots by name and switches the active one. See the <a href="/audyssey-dirac-control/">Audyssey &amp; Dirac control guide</a>.</div></details>
     <details><summary>Does it support multi-zone (Zone 2 and Zone 3)?</summary><div class="body">Yes - independent power, input, volume and Quick/Smart Select recall for Zone 2 and Zone 3, so you can run whole-house audio from your phone.</div></details>
-    <details><summary>Is AVR Maestro made by Denon or Marantz?</summary><div class="body">No. AVR Maestro is an independent app by MiyaraHub Technologies and is not affiliated with Denon, Marantz or Sound United. It uses the receivers' own network protocol to control them.</div></details>
+    <details><summary>Is AVR Maestro made by Denon or Marantz?</summary><div class="body">No. AVR Maestro is an independent app made by MiyaraHub Technologies LLC. It is not affiliated with, endorsed by, or sponsored by Denon, Marantz, D&amp;M Holdings or Sound United. It controls your receiver over your local network using the receiver's own network protocol.</div></details>
   </div>
 </section>
 
@@ -302,13 +414,15 @@
 <footer>
   <div class="wrap">
     <div class="foot-brand">
-      <img src="assets/logo-square.jpg" alt="MiyaraHub Technologies" />
+      <img src="/assets/logo-square-164.jpg" alt="MiyaraHub Technologies LLC logo" width="82" height="82" loading="lazy" decoding="async" />
       <span>A <b style="color:var(--txt)">MiyaraHub Technologies</b> app</span>
     </div>
     <div class="flinks">
       <a href="/guide/">User Guide</a>
+      <a href="/guide/getting-started/">Getting started</a>
       <a href="/receivers/">Receivers</a>
       <a href="/audyssey-dirac-control/">Audyssey &amp; Dirac</a>
+      <a href="/audyssey-vs-dirac/">Audyssey vs Dirac</a>
       <a href="/best-denon-marantz-app/">Why switch</a>
       <a href="/help/">Help</a>
       <a href="https://play.google.com/store/apps/details?id=com.miyarahub.avr_maestro">Google Play</a>
@@ -316,9 +430,9 @@
       <a href="https://apps.microsoft.com/detail/9P4M7W4J5106">Microsoft Store</a>
       <a href="https://discord.gg/UmVtxE5fXN">Discord</a>
       <a href="https://www.facebook.com/groups/avrmaestro">Facebook</a>
-      <a href="https://miyarahub.com">miyarahub.com</a>
+      <a href="https://miyarahub.com">MiyaraHub</a>
     </div>
-    <div class="legal">&copy; MiyaraHub Technologies LLC. AVR Maestro is an independent app and is not affiliated with, endorsed by, or sponsored by Denon, Marantz, D&amp;M Holdings or Sound United. Denon, Marantz, HEOS, Audyssey and Dirac Live are trademarks of their respective owners.</div>
+    <div class="legal">&copy; MiyaraHub Technologies LLC. AVR Maestro is an independent app and is not affiliated with, endorsed by, or sponsored by Denon, Marantz, D&amp;M Holdings, Sound United or any other company named on this page. Denon, Marantz, HEOS, Audyssey, Dirac Live, Home Assistant, Hubitat, Alexa, App Store, Google Play and Microsoft Store are trademarks of their respective owners, used here only for identification.</div>
   </div>
 </footer>
 

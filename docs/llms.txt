@@ -1,0 +1,65 @@
+# AVR Maestro
+
+> AVR Maestro is an independent app for controlling Denon and Marantz AV receivers over your local network, on Android, iOS, macOS and Windows. It is made by MiyaraHub Technologies LLC and is not affiliated with, endorsed by, or sponsored by Denon, Marantz, D&M Holdings or Sound United.
+
+AVR Maestro talks to network-enabled Denon and Marantz receivers directly over the local network, with no cloud account. It covers one-tap Scenes, Home Assistant and Hubitat automation, speaker preset control, Audyssey and Dirac Live, on-screen display control, multi-zone, the FM/AM tuner and a virtual remote, in 28 languages. It is a one-time purchase with no ads and no subscriptions; Home Automation is a one-time unlock. Denon, Marantz, HEOS, Audyssey, Dirac Live, Home Assistant and Hubitat are trademarks of their respective owners.
+
+## Main pages
+
+- [Remote App for Denon & Marantz AV Receivers](https://avrmaestro.com/): AVR Maestro is an independent remote app for Denon and Marantz AV receivers: one-tap Scenes, Audyssey and Dirac Live, speaker presets, multi-zone and more.
+- [Best App for Denon & Marantz Receivers](https://avrmaestro.com/best-denon-marantz-app/): Want a better Denon or Marantz receiver app? AVR Maestro adds one-tap Scenes, Audyssey and Dirac Live, multi-zone and an FM/AM tuner. No ads, no subscriptions.
+- [Control Audyssey & Dirac Live From Your Phone](https://avrmaestro.com/audyssey-dirac-control/): Switch Audyssey MultEQ, Dynamic EQ, Dynamic Volume, LFC and Dirac Live filter slots on your Denon or Marantz receiver from your phone with AVR Maestro.
+- [Audyssey vs Dirac Live: Which Should You Use?](https://avrmaestro.com/audyssey-vs-dirac/): Audyssey vs Dirac Live on Denon and Marantz receivers: how the two room correction systems differ, which models support each, and how to switch between them.
+- [Help & Troubleshooting for Denon & Marantz](https://avrmaestro.com/help/): AVR Maestro help: fix Test Connection failures, dropped connections, wrong volume readouts, greyed-out sound modes, missing tabs and a blank Now Playing card.
+
+## Supported receivers
+
+- [Denon AVC-X8500HA App: Independent Remote](https://avrmaestro.com/receivers/denon-avc-x8500ha/): Control your Denon AVC-X8500HA from your phone with AVR Maestro, an independent app: Audyssey MultEQ XT32 and Dirac Live, surround modes, multi-zone and Scenes.
+- [Denon AVR-A1H App: Independent Remote](https://avrmaestro.com/receivers/denon-avr-a1h/): Control your Denon AVR-A1H from your phone with AVR Maestro, an independent app: Audyssey and Dirac Live, surround modes, multi-zone and Scenes.
+- [Denon AVR-S770H App: Independent Remote](https://avrmaestro.com/receivers/denon-avr-s770h/): Control your Denon AVR-S770H from your phone with AVR Maestro, an independent app: Audyssey MultEQ, surround modes, speaker presets, multi-zone and Scenes.
+- [Denon AVR-S970H App: Independent Remote](https://avrmaestro.com/receivers/denon-avr-s970h/): Control your Denon AVR-S970H from your phone with AVR Maestro, an independent app: Audyssey MultEQ, surround modes, speaker presets, multi-zone and Scenes.
+- [Denon AVR-X1800H App: Independent Remote](https://avrmaestro.com/receivers/denon-avr-x1800h/): Control your Denon AVR-X1800H from your phone with AVR Maestro, an independent app: Audyssey MultEQ, surround modes, speaker presets, multi-zone and Scenes.
+- [Denon AVR-X2800H App: Independent Remote](https://avrmaestro.com/receivers/denon-avr-x2800h/): Control your Denon AVR-X2800H from your phone with AVR Maestro, an independent app: Audyssey MultEQ XT, surround modes, speaker presets, multi-zone and Scenes.
+- [Denon AVR-X3800H App: Independent Remote](https://avrmaestro.com/receivers/denon-avr-x3800h/): Control your Denon AVR-X3800H from your phone with AVR Maestro, an independent app: Audyssey and Dirac Live, surround modes, multi-zone and Scenes.
+- [Denon AVR-X4800H App: Independent Remote](https://avrmaestro.com/receivers/denon-avr-x4800h/): Control your Denon AVR-X4800H from your phone with AVR Maestro, an independent app: Audyssey MultEQ XT32 and Dirac Live, surround modes, multi-zone and Scenes.
+- [Denon AVR-X6800H App: Independent Remote](https://avrmaestro.com/receivers/denon-avr-x6800h/): Control your Denon AVR-X6800H from your phone with AVR Maestro, an independent app: Audyssey MultEQ XT32 and Dirac Live, surround modes, multi-zone and Scenes.
+- [Supported Denon & Marantz Receivers](https://avrmaestro.com/receivers/): Receivers that work with AVR Maestro: Marantz Cinema 30, 40, 50 and 60, Denon AVR-A1H, AVR-X and AVR-S models, Marantz SR and AV series, and how to check yours.
+- [Marantz AV10 App: Independent Remote](https://avrmaestro.com/receivers/marantz-av10/): Control your Marantz AV10 from your phone with AVR Maestro, an independent app: Audyssey MultEQ XT32 and Dirac Live, surround modes, multi-zone and Scenes.
+- [Marantz AV8805 App: Independent Remote](https://avrmaestro.com/receivers/marantz-av8805/): Control your Marantz AV8805 from your phone with AVR Maestro, an independent app: Audyssey MultEQ XT32 and Dirac Live, surround modes, multi-zone and Scenes.
+- [Marantz Cinema 30 App: Independent Remote](https://avrmaestro.com/receivers/marantz-cinema-30/): Control your Marantz Cinema 30 from your phone with AVR Maestro, an independent app: Audyssey and Dirac Live, surround modes, multi-zone and Scenes.
+- [Marantz Cinema 40, 50 & 60 Independent App](https://avrmaestro.com/receivers/marantz-cinema-40/): Control your Marantz Cinema 40, 50 & 60 from your phone with AVR Maestro, an independent app: Audyssey and Dirac Live, surround modes, multi-zone and Scenes.
+- [Marantz Cinema 50 App: Independent Remote](https://avrmaestro.com/receivers/marantz-cinema-50/): Control your Marantz Cinema 50 from your phone with AVR Maestro, an independent app: Audyssey MultEQ XT32 and Dirac Live, surround modes, multi-zone and Scenes.
+- [Marantz SR6015 App: Independent Remote](https://avrmaestro.com/receivers/marantz-sr6015/): Control your Marantz SR6015 from your phone with AVR Maestro, an independent app: Audyssey MultEQ XT32 and Dirac Live, surround modes, multi-zone and Scenes.
+- [Marantz SR7015 App: Independent Remote](https://avrmaestro.com/receivers/marantz-sr7015/): Control your Marantz SR7015 from your phone with AVR Maestro, an independent app: Audyssey MultEQ XT32 and Dirac Live, surround modes, multi-zone and Scenes.
+
+## User guide
+
+- [User Guide for Denon & Marantz Receivers](https://avrmaestro.com/guide/): The complete AVR Maestro user guide: set up, connect and use every screen, from Scenes and Sound to Speakers, Zones, Remote and Radio, on your Denon or Marantz.
+- [On-Device Assistant for Denon & Marantz](https://avrmaestro.com/guide/assistant/): The AVR Maestro assistant answers questions about your own Denon or Marantz receiver and can change settings for you, using a model that runs on your device.
+- [Backup & Restore Settings to a New Phone](https://avrmaestro.com/guide/backup/): Export every AVR Maestro setting to one file: receivers, input names and icons, Scenes, theme and volume preferences. Restore it on a new phone in a few taps.
+- [Custom Input & Scene Icons for Your Receiver](https://avrmaestro.com/guide/custom-icons/): Replace the stock input and Scene icons in AVR Maestro with your own artwork: pick any image, crop it with shape presets, and it shows on tiles and the Remote.
+- [Control a Denon or Marantz From Your Phone](https://avrmaestro.com/guide/getting-started/): Step by step: connect AVR Maestro to your Denon or Marantz AV receiver over your network and control it from your phone in under a minute.
+- [9-Band Graphic EQ for Denon & Marantz](https://avrmaestro.com/guide/graphic-eq/): Shape a 9-band Graphic EQ curve (63Hz to 16kHz) for every speaker on your Denon or Marantz receiver from your phone: All, Left/Right or Each, then Apply.
+- [Home Assistant Dashboard for Denon & Marantz](https://avrmaestro.com/guide/home-assistant-dashboard/): Build a Home Assistant dashboard for your Denon or Marantz receiver: HACS cards, entity IDs, YAML for every card, real dB volume, Scenes and history.
+- [Home Assistant & Hubitat for Denon & Marantz](https://avrmaestro.com/guide/home-automation/): Link AVR Maestro to Home Assistant or Hubitat and your Scenes become native scripts that run without your phone. Voice control, live state and webhooks.
+- [Home Screen & Now Playing Widgets](https://avrmaestro.com/guide/home/): The AVR Maestro Home screen: a pinned status card plus widgets you add, remove and reorder for volume, source, sound mode, zones, Audyssey/Dirac and HEOS.
+- [28 Languages, Right to Left Included](https://avrmaestro.com/guide/languages/): AVR Maestro speaks 28 languages: every screen, setting and dialog, auto-detected or chosen in Settings. Hebrew and Arabic mirror the whole layout.
+- [Why a Control Is Locked: Dirac & Audyssey](https://avrmaestro.com/guide/locked-controls/): Speaker Layout, Levels or Graphic EQ locked? Your Denon or Marantz locks these menus itself, depending on whether Dirac Live or Audyssey owns the preset.
+- [Control Zone 2 & Zone 3 From Your Phone](https://avrmaestro.com/guide/multi-zone/): Independent Zone 2 and Zone 3 control on Denon and Marantz receivers: power, input, volume, mute, Zone Quick Select, zone renaming and per-zone now playing.
+- [Now Playing & HEOS: Album Art and Transport](https://avrmaestro.com/guide/now-playing/): The AVR Maestro Now Playing card shows album art, track, artist and station with play, pause, next and previous, live from your Denon or Marantz over HEOS.
+- [On-Screen Display: Volume Readout & 21:9](https://avrmaestro.com/guide/on-screen-display/): Control your Denon or Marantz on-screen display from your phone: the volume readout position or off, the info banner, 21:9 positioning and the screen saver.
+- [FM/AM Tuner Control From Your Phone](https://avrmaestro.com/guide/radio/): A proper FM/AM radio for Denon and Marantz receivers with a built-in tuner: band and tune mode, tune by frequency, and named station presets from your phone.
+- [Virtual Remote for Denon & Marantz Receivers](https://avrmaestro.com/guide/remote/): A virtual remote for Denon and Marantz: D-pad and transport, a live header with the channels in use, renamable inputs, Quick/Smart Select and system controls.
+- [Scenes: Save Your Whole Receiver Setup](https://avrmaestro.com/guide/scenes/): Scenes capture your whole Denon or Marantz setup (input, volume, sound mode, Audyssey/Dirac, speaker preset, levels, zones, tuner) and recall it in one tap.
+- [Settings, Themes, Widgets & Backup](https://avrmaestro.com/guide/settings/): AVR Maestro settings: manage receivers, Color Theme by hex code plus light, dark and AMOLED, volume step, widgets on iOS and Android, and backup to a file.
+- [Sound Tab: Every Audio Control on Your AVR](https://avrmaestro.com/guide/sound/): Every audio control on your Denon or Marantz explained: surround modes, Dialog Enhancer, DRC, Audyssey, Dirac Live, Graphic EQ, trims, Tone, IMAX and Auro-3D.
+- [Speaker Setup: Levels, Crossovers & Presets](https://avrmaestro.com/guide/speakers/): A speaker setup workshop for your Denon or Marantz from your phone: layout, distances, channel levels, crossovers, subwoofer and speaker presets, read live.
+- [Volume Limit, Power-On Level & Mute Depth](https://avrmaestro.com/guide/volume/): Set a volume limit for your Denon or Marantz, choose the power-on level, pick how far Mute attenuates, and read volume as 0 to 98 or in decibels.
+
+## Get the app
+
+- [Google Play](https://play.google.com/store/apps/details?id=com.miyarahub.avr_maestro): Android
+- [App Store](https://apps.apple.com/us/app/avr-maestro-for-denon-marantz/id6762881597): iOS and macOS
+- [Microsoft Store](https://apps.microsoft.com/detail/9P4M7W4J5106): Windows
+- [Report a bug or request a feature](https://github.com/MiyaraHub/avrmaestro-public/issues/new/choose)
+- [MiyaraHub Technologies LLC](https://miyarahub.com)

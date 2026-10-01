@@ -3,62 +3,154 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Volume Controls - Limit, Power-On Level, Mute Depth and dB Scale | AVR Maestro</title>
-<meta name="description" content="Set a volume limit so your Denon or Marantz can never be turned up past it, choose whether it wakes to a fixed level or the last one you used, pick how far Mute attenuates, and read the volume as 0 to 98 or in decibels. All from the app." />
+<title>Volume Limit, Power-On Level &amp; Mute Depth - AVR Maestro</title>
+<meta name="description" content="Set a volume limit for your Denon or Marantz, choose the power-on level, pick how far Mute attenuates, and read volume as 0 to 98 or in decibels." />
 <meta name="keywords" content="Denon volume limit app, Marantz power on level, AVR mute level -20 dB, receiver volume in decibels app, Denon volume scale absolute relative, protect speakers volume limit" />
 <meta name="author" content="MiyaraHub Technologies LLC" />
 <meta name="robots" content="index, follow, max-image-preview:large" />
 <meta name="theme-color" content="#ff6e40" />
 <link rel="canonical" href="https://avrmaestro.com/guide/volume/" />
-<meta property="og:title" content="Volume Controls - Limit, Power-On Level and Mute Depth | AVR Maestro" />
-<meta property="og:description" content="A hard ceiling on how loud it can go, what it wakes to, and how far Mute drops it." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://avrmaestro.com/guide/volume/" />
 <meta property="og:site_name" content="AVR Maestro" />
-<meta property="og:image" content="https://avrmaestro.com/screenshots/volume-controls.png" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:title" content="Volume Limit, Power-On Level &amp; Mute Depth - AVR Maestro" />
+<meta property="og:description" content="Set a volume limit for your Denon or Marantz, choose the power-on level, pick how far Mute attenuates, and read volume as 0 to 98 or in decibels." />
+<meta property="og:url" content="https://avrmaestro.com/guide/volume/" />
+<meta property="og:image" content="https://avrmaestro.com/assets/og-card.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="AVR Maestro, an independent remote app for Denon and Marantz AV receivers" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Volume Controls - AVR Maestro" />
-<meta name="twitter:description" content="Volume limit, power-on level, mute depth and the dB scale." />
-<meta name="twitter:image" content="https://avrmaestro.com/screenshots/volume-controls.png" />
-<link rel="icon" type="image/png" sizes="48x48" href="../../assets/favicon-48.png" />
-<link rel="apple-touch-icon" href="../../assets/apple-touch-icon.png" />
+<meta name="twitter:title" content="Volume Limit, Power-On Level &amp; Mute Depth - AVR Maestro" />
+<meta name="twitter:description" content="Set a volume limit for your Denon or Marantz, choose the power-on level, pick how far Mute attenuates, and read volume as 0 to 98 or in decibels." />
+<meta name="twitter:image" content="https://avrmaestro.com/assets/og-card.png" />
+<meta name="twitter:image:alt" content="AVR Maestro, an independent remote app for Denon and Marantz AV receivers" />
+<link rel="icon" href="/assets/favicon.ico" sizes="any" />
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
+<link rel="icon" type="image/png" sizes="48x48" href="/assets/favicon-48.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
 <link rel="stylesheet" href="../../assets/site.css" />
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://avrmaestro.com/#organization",
+      "name": "MiyaraHub Technologies LLC",
+      "url": "https://miyarahub.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://avrmaestro.com/assets/logo-square.jpg",
+        "width": 2048,
+        "height": 2048
+      },
+      "sameAs": [
+        "https://github.com/MiyaraHub"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://avrmaestro.com/#website",
+      "url": "https://avrmaestro.com/",
+      "name": "AVR Maestro",
+      "description": "AVR Maestro is an independent app for controlling Denon and Marantz AV receivers over your local network.",
+      "publisher": {
+        "@id": "https://avrmaestro.com/#organization"
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "TechArticle",
+      "@id": "https://avrmaestro.com/guide/volume/#article",
+      "headline": "Volume controls: a ceiling, a wake-up level, and a Mute that does what you want",
+      "description": "Set a volume limit for your Denon or Marantz, choose the power-on level, pick how far Mute attenuates, and read volume as 0 to 98 or in decibels.",
+      "image": "https://avrmaestro.com/screenshots/volume-controls.png",
+      "datePublished": "2026-08-16",
+      "dateModified": "2026-10-01",
+      "author": {
+        "@id": "https://avrmaestro.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://avrmaestro.com/#organization"
+      },
+      "mainEntityOfPage": "https://avrmaestro.com/guide/volume/",
+      "isPartOf": {
+        "@id": "https://avrmaestro.com/#website"
+      },
+      "about": {
+        "@id": "https://avrmaestro.com/#app"
+      },
+      "inLanguage": "en"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
   "@type": "FAQPage",
+  "@id": "https://avrmaestro.com/guide/volume/#faq",
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Can I stop my receiver being turned up too loud?",
+      "name": "Does the volume limit apply to the physical remote too?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Volume Limit sets a ceiling on the receiver itself, so nothing can go past it - not the app, not the physical remote, not the front-panel dial. Setting it to Off removes the cap."
+        "text": "Yes. The limit is a receiver setting, not an app setting, so it caps every route: the app, the bundled remote, the front-panel dial and any other controller on your network."
       }
     },
     {
       "@type": "Question",
-      "name": "How do I stop my receiver waking up at full volume?",
+      "name": "Do these settings apply to Zone 2 and Zone 3?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Turn off Use last volume in Volume Controls and set a fixed Power-On Level. The receiver will then wake to that level every time regardless of how loud it was when you switched it off."
+        "text": "Volume Controls covers the main zone. Each zone carries its own volume, and its own power and input, on the Zones tab."
       }
     },
     {
       "@type": "Question",
-      "name": "Can I show the volume in decibels instead of 0 to 98?",
+      "name": "Why does the app show 0 to 98 when reviews quote decibels?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Volume Scale switches the readout between the 0 to 98 relative scale and the absolute -79.5 to 18.0 dB scale, and the change applies both in the app and on the receiver's own display."
+        "text": "They are two views of the same dial. Switch Volume Scale to -79.5 to 18.0 dB and the readout matches the way calibration levels are normally quoted, where 0.0 dB is reference."
       }
     },
     {
       "@type": "Question",
-      "name": "Does Mute always silence the receiver completely?",
+      "name": "Can I use my phone's volume buttons?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Only if Mute Level is set to Full. Choose -40 dB or -20 dB instead and Mute attenuates rather than silences, which is useful when you want to talk over something without losing it entirely."
+        "text": "Yes, on Android and on iPhone. While AVR Maestro is in the foreground the device's volume buttons drive the receiver directly, one step per press and a ramp while held; a switch under Settings, Audio gives the device its buttons back."
       }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://avrmaestro.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "User Guide",
+      "item": "https://avrmaestro.com/guide/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Volume Controls",
+      "item": "https://avrmaestro.com/guide/volume/"
     }
   ]
 }
@@ -68,7 +160,7 @@
 
 <header class="nav">
   <div class="wrap">
-    <a class="brand" href="/"><img src="../../assets/avr-maestro-icon.png" alt="AVR Maestro icon" /> AVR Maestro</a>
+    <a class="brand" href="/"><img src="/assets/avr-maestro-icon-64.png" alt="AVR Maestro" width="30" height="30" decoding="async" /> AVR Maestro</a>
     <button class="nav-toggle" aria-label="Menu" onclick="document.getElementById('m').classList.toggle('open')">&#9776;</button>
     <nav id="m">
       <a href="/">Home</a>
@@ -85,7 +177,7 @@
   <div class="wrap">
     <div class="crumb"><a href="/">Home</a> &rsaquo; <a href="/guide/">User Guide</a> &rsaquo; Volume Controls</div>
     <div class="eyebrow">Settings &rsaquo; Volume Controls</div>
-    <h1>A ceiling, a wake-up level, and <span class="g">a Mute that does what you want</span></h1>
+    <h1>Volume controls: a ceiling, a wake-up level, and <span class="g">a Mute that does what you want</span></h1>
     <p>Four settings that between them decide how loud your receiver can ever get, what it does when it wakes, and how far Mute drops it. They live on the receiver, so they hold whether you use the app, the physical remote or the front panel.</p>
   </div>
 </div>
@@ -98,7 +190,7 @@
         <h2>Settings &rsaquo; Volume Controls</h2>
         <p class="lead">Open <b>Settings</b> and scroll to <b>Volume Controls</b> - "Volume limit, power-on level, and mute depth". Everything on this page is written straight to the receiver, so it survives closing the app and applies to every way you control it.</p>
       </div>
-      <img alt="The Volume Controls page with volume scale, limit, power-on level and mute level" src="../../screenshots/volume-controls.png" />
+      <img alt="The Volume Controls page with volume scale, limit, power-on level and mute level" src="../../screenshots/volume-controls.png" width="1324" height="2644" decoding="async" />
     </div>
   </div>
 </section>
@@ -156,6 +248,16 @@
   </div>
 </section>
 
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">More of the guide</div>
+      <h2>Other AVR Maestro guides</h2>
+    </div>
+    <p class="lead"><a href="/guide/getting-started/">Getting started</a> &middot; <a href="/guide/home/">Home Screen</a> &middot; <a href="/guide/scenes/">Scenes</a> &middot; <a href="/guide/custom-icons/">Custom Icons</a> &middot; <a href="/guide/sound/">Sound</a> &middot; <a href="/guide/graphic-eq/">Graphic EQ</a> &middot; <a href="/guide/speakers/">Speakers</a> &middot; <a href="/guide/locked-controls/">Why a control is locked</a> &middot; <a href="/guide/assistant/">The Assistant</a> &middot; <a href="/guide/home-automation/">Home Automation</a> &middot; <a href="/guide/home-assistant-dashboard/">Home Assistant dashboard</a> &middot; <a href="/guide/multi-zone/">Zones</a> &middot; <a href="/guide/remote/">Remote</a> &middot; <a href="/guide/radio/">Radio (FM/AM)</a> &middot; <a href="/guide/on-screen-display/">On-Screen Display</a> &middot; <a href="/guide/settings/">Settings</a> &middot; <a href="/guide/languages/">Languages</a> &middot; <a href="/guide/backup/">Backup &amp; Restore</a> &middot; <a href="/guide/now-playing/">Now Playing &amp; HEOS</a></p>
+  </div>
+</section>
+
 <section class="cta">
   <div class="wrap">
     <h2>Set the ceiling once, relax after that</h2>
@@ -175,8 +277,12 @@
     <div class="flinks">
       <a href="/">Home</a>
       <a href="/guide/">User Guide</a>
+      <a href="/guide/getting-started/">Getting started</a>
       <a href="/receivers/">Receivers</a>
+      <a href="/audyssey-dirac-control/">Audyssey &amp; Dirac</a>
+      <a href="/audyssey-vs-dirac/">Audyssey vs Dirac</a>
       <a href="/best-denon-marantz-app/">Why switch</a>
+      <a href="/help/">Help</a>
       <a href="https://play.google.com/store/apps/details?id=com.miyarahub.avr_maestro">Google Play</a>
       <a href="https://apps.apple.com/us/app/avr-maestro-for-denon-marantz/id6762881597">App Store</a>
       <a href="https://apps.microsoft.com/detail/9P4M7W4J5106">Microsoft Store</a>
@@ -184,7 +290,7 @@
       <a href="https://www.facebook.com/groups/avrmaestro">Facebook</a>
       <a href="https://miyarahub.com">MiyaraHub</a>
     </div>
-    <p class="legal">AVR Maestro is an independent app by MiyaraHub Technologies LLC and is not affiliated with, endorsed by, or sponsored by Denon, Marantz, D&amp;M Holdings or Sound United. Denon, Marantz, HEOS, Audyssey and Dirac Live are trademarks of their respective owners.</p>
+    <p class="legal">AVR Maestro is an independent app by MiyaraHub Technologies LLC and is not affiliated with, endorsed by, or sponsored by Denon, Marantz, D&amp;M Holdings, Sound United or any other company named on this page. Denon, Marantz, HEOS, Audyssey and Dirac Live are trademarks of their respective owners, used here only for identification.</p>
   </div>
 </footer>
 

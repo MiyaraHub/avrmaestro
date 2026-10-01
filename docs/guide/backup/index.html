@@ -3,62 +3,154 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Backup &amp; Restore - Move Your Setup to a New Phone | AVR Maestro</title>
-<meta name="description" content="Export every AVR Maestro setting to a single file: configured receivers, custom input names and icons, source ordering, Scenes, theme and Color Theme, widget scale and volume preferences. Restore it on a new phone, or share it to another device, in a few taps." />
+<title>Backup &amp; Restore Settings to a New Phone - AVR Maestro</title>
+<meta name="description" content="Export every AVR Maestro setting to one file: receivers, input names and icons, Scenes, theme and volume preferences. Restore it on a new phone in a few taps." />
 <meta name="keywords" content="AVR Maestro backup, transfer AVR app settings new phone, export receiver settings app, restore Denon app config, AVR Maestro migrate device" />
 <meta name="author" content="MiyaraHub Technologies LLC" />
 <meta name="robots" content="index, follow, max-image-preview:large" />
 <meta name="theme-color" content="#ff6e40" />
 <link rel="canonical" href="https://avrmaestro.com/guide/backup/" />
-<meta property="og:title" content="Backup &amp; Restore - Move Your Setup to a New Phone | AVR Maestro" />
-<meta property="og:description" content="Every setting to one file, and back again on a new device." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://avrmaestro.com/guide/backup/" />
 <meta property="og:site_name" content="AVR Maestro" />
-<meta property="og:image" content="https://avrmaestro.com/screenshots/backup-restore.png" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:title" content="Backup &amp; Restore Settings to a New Phone - AVR Maestro" />
+<meta property="og:description" content="Export every AVR Maestro setting to one file: receivers, input names and icons, Scenes, theme and volume preferences. Restore it on a new phone in a few taps." />
+<meta property="og:url" content="https://avrmaestro.com/guide/backup/" />
+<meta property="og:image" content="https://avrmaestro.com/assets/og-card.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="AVR Maestro, an independent remote app for Denon and Marantz AV receivers" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Backup &amp; Restore - AVR Maestro" />
-<meta name="twitter:description" content="Export every setting to a file, restore it on a new phone." />
-<meta name="twitter:image" content="https://avrmaestro.com/screenshots/backup-restore.png" />
-<link rel="icon" type="image/png" sizes="48x48" href="../../assets/favicon-48.png" />
-<link rel="apple-touch-icon" href="../../assets/apple-touch-icon.png" />
+<meta name="twitter:title" content="Backup &amp; Restore Settings to a New Phone - AVR Maestro" />
+<meta name="twitter:description" content="Export every AVR Maestro setting to one file: receivers, input names and icons, Scenes, theme and volume preferences. Restore it on a new phone in a few taps." />
+<meta name="twitter:image" content="https://avrmaestro.com/assets/og-card.png" />
+<meta name="twitter:image:alt" content="AVR Maestro, an independent remote app for Denon and Marantz AV receivers" />
+<link rel="icon" href="/assets/favicon.ico" sizes="any" />
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
+<link rel="icon" type="image/png" sizes="48x48" href="/assets/favicon-48.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
 <link rel="stylesheet" href="../../assets/site.css" />
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://avrmaestro.com/#organization",
+      "name": "MiyaraHub Technologies LLC",
+      "url": "https://miyarahub.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://avrmaestro.com/assets/logo-square.jpg",
+        "width": 2048,
+        "height": 2048
+      },
+      "sameAs": [
+        "https://github.com/MiyaraHub"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://avrmaestro.com/#website",
+      "url": "https://avrmaestro.com/",
+      "name": "AVR Maestro",
+      "description": "AVR Maestro is an independent app for controlling Denon and Marantz AV receivers over your local network.",
+      "publisher": {
+        "@id": "https://avrmaestro.com/#organization"
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "TechArticle",
+      "@id": "https://avrmaestro.com/guide/backup/#article",
+      "headline": "Backup & Restore: your whole setup, in one file",
+      "description": "Export every AVR Maestro setting to one file: receivers, input names and icons, Scenes, theme and volume preferences. Restore it on a new phone in a few taps.",
+      "image": "https://avrmaestro.com/screenshots/backup-restore.png",
+      "datePublished": "2026-08-16",
+      "dateModified": "2026-10-01",
+      "author": {
+        "@id": "https://avrmaestro.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://avrmaestro.com/#organization"
+      },
+      "mainEntityOfPage": "https://avrmaestro.com/guide/backup/",
+      "isPartOf": {
+        "@id": "https://avrmaestro.com/#website"
+      },
+      "about": {
+        "@id": "https://avrmaestro.com/#app"
+      },
+      "inLanguage": "en"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
   "@type": "FAQPage",
+  "@id": "https://avrmaestro.com/guide/backup/#faq",
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do I move AVR Maestro to a new phone?",
+      "name": "Can I move a backup between Android and iPhone?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Open Settings, then Backup and Restore, and tap Save to device or Share. Move the file to the new phone, install AVR Maestro there, and use Import settings from file. Your receivers, custom input names and icons, Scenes, theme and preferences all come across."
+        "text": "The file is plain JSON and is not tied to the device that wrote it. Export from one, get the file onto the other, and import."
       }
     },
     {
       "@type": "Question",
-      "name": "What is included in an AVR Maestro backup?",
+      "name": "Will importing overwrite my receiver's calibration?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Every app setting in one JSON file: all configured receivers, source ordering per device, theme and Color Theme, display and widget scale, volume preferences, explanation-card state, and cached HEOS, feature and music probes."
+        "text": "No. A backup contains app settings only. Everything the receiver stores - calibration, presets, levels, distances, Dirac filters - is on the receiver and is untouched."
       }
     },
     {
       "@type": "Question",
-      "name": "Does restoring a backup change my receiver?",
+      "name": "Do my Scenes come across?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. A backup holds the app's settings, not the receiver's. Your calibration, speaker presets, levels and distances live on the receiver itself and are untouched by an import."
+        "text": "Yes, along with which settings each Scene was told to capture. See the Scenes guide."
       }
     },
     {
       "@type": "Question",
-      "name": "Does importing merge with my existing settings?",
+      "name": "Where does Save to device put the file?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No, it replaces them. Existing settings on that device are overwritten with the contents of the backup, and you should restart the app afterwards. Export your current setup first if you might want it back."
+        "text": "Wherever you choose in your system's file picker. Share is the quicker route if the file is only passing through on its way to another phone."
       }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://avrmaestro.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "User Guide",
+      "item": "https://avrmaestro.com/guide/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Backup & Restore",
+      "item": "https://avrmaestro.com/guide/backup/"
     }
   ]
 }
@@ -68,7 +160,7 @@
 
 <header class="nav">
   <div class="wrap">
-    <a class="brand" href="/"><img src="../../assets/avr-maestro-icon.png" alt="AVR Maestro icon" /> AVR Maestro</a>
+    <a class="brand" href="/"><img src="/assets/avr-maestro-icon-64.png" alt="AVR Maestro" width="30" height="30" decoding="async" /> AVR Maestro</a>
     <button class="nav-toggle" aria-label="Menu" onclick="document.getElementById('m').classList.toggle('open')">&#9776;</button>
     <nav id="m">
       <a href="/">Home</a>
@@ -85,7 +177,7 @@
   <div class="wrap">
     <div class="crumb"><a href="/">Home</a> &rsaquo; <a href="/guide/">User Guide</a> &rsaquo; Backup &amp; Restore</div>
     <div class="eyebrow">Settings &rsaquo; Backup &amp; Restore</div>
-    <h1>Your whole setup, <span class="g">in one file</span></h1>
+    <h1>Backup &amp; Restore: your whole setup, <span class="g">in one file</span></h1>
     <p>Renaming every input, picking artwork for each one, ordering your sources and building a set of Scenes is real work. It should survive a new phone, and it does: one export, one import, and the new device looks exactly like the old one.</p>
   </div>
 </div>
@@ -103,7 +195,7 @@
         </ul>
         <p class="lead">It is a plain text file. Nothing in it is locked to the device it came from.</p>
       </div>
-      <img alt="The Backup and Restore page with export and import" src="../../screenshots/backup-restore.png" />
+      <img alt="The Backup and Restore page with export and import" src="../../screenshots/backup-restore.png" width="1324" height="2644" decoding="async" />
     </div>
   </div>
 </section>
@@ -170,6 +262,16 @@
   </div>
 </section>
 
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">More of the guide</div>
+      <h2>Other AVR Maestro guides</h2>
+    </div>
+    <p class="lead"><a href="/guide/getting-started/">Getting started</a> &middot; <a href="/guide/home/">Home Screen</a> &middot; <a href="/guide/scenes/">Scenes</a> &middot; <a href="/guide/custom-icons/">Custom Icons</a> &middot; <a href="/guide/sound/">Sound</a> &middot; <a href="/guide/graphic-eq/">Graphic EQ</a> &middot; <a href="/guide/speakers/">Speakers</a> &middot; <a href="/guide/locked-controls/">Why a control is locked</a> &middot; <a href="/guide/assistant/">The Assistant</a> &middot; <a href="/guide/home-automation/">Home Automation</a> &middot; <a href="/guide/home-assistant-dashboard/">Home Assistant dashboard</a> &middot; <a href="/guide/multi-zone/">Zones</a> &middot; <a href="/guide/remote/">Remote</a> &middot; <a href="/guide/radio/">Radio (FM/AM)</a> &middot; <a href="/guide/on-screen-display/">On-Screen Display</a> &middot; <a href="/guide/settings/">Settings</a> &middot; <a href="/guide/languages/">Languages</a> &middot; <a href="/guide/volume/">Volume Controls</a> &middot; <a href="/guide/now-playing/">Now Playing &amp; HEOS</a></p>
+  </div>
+</section>
+
 <section class="cta">
   <div class="wrap">
     <h2>Set it up once</h2>
@@ -189,8 +291,12 @@
     <div class="flinks">
       <a href="/">Home</a>
       <a href="/guide/">User Guide</a>
+      <a href="/guide/getting-started/">Getting started</a>
       <a href="/receivers/">Receivers</a>
+      <a href="/audyssey-dirac-control/">Audyssey &amp; Dirac</a>
+      <a href="/audyssey-vs-dirac/">Audyssey vs Dirac</a>
       <a href="/best-denon-marantz-app/">Why switch</a>
+      <a href="/help/">Help</a>
       <a href="https://play.google.com/store/apps/details?id=com.miyarahub.avr_maestro">Google Play</a>
       <a href="https://apps.apple.com/us/app/avr-maestro-for-denon-marantz/id6762881597">App Store</a>
       <a href="https://apps.microsoft.com/detail/9P4M7W4J5106">Microsoft Store</a>
@@ -198,7 +304,7 @@
       <a href="https://www.facebook.com/groups/avrmaestro">Facebook</a>
       <a href="https://miyarahub.com">MiyaraHub</a>
     </div>
-    <p class="legal">AVR Maestro is an independent app by MiyaraHub Technologies LLC and is not affiliated with, endorsed by, or sponsored by Denon, Marantz, D&amp;M Holdings or Sound United. Denon, Marantz, HEOS, Audyssey and Dirac Live are trademarks of their respective owners.</p>
+    <p class="legal">AVR Maestro is an independent app by MiyaraHub Technologies LLC and is not affiliated with, endorsed by, or sponsored by Denon, Marantz, D&amp;M Holdings, Sound United or any other company named on this page. Denon, Marantz, HEOS, Audyssey and Dirac Live are trademarks of their respective owners, used here only for identification.</p>
   </div>
 </footer>
 

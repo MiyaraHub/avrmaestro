@@ -3,50 +3,154 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>The Assistant - Ask Your Denon or Marantz Anything, On Device | AVR Maestro</title>
-<meta name="description" content="AVR Maestro's assistant answers questions about your own receiver and can change things for you, using a model that runs on your phone. What it can answer, what it will act on, what it asks before doing, and why it sometimes says it cannot tell." />
+<title>On-Device Assistant for Denon &amp; Marantz - AVR Maestro</title>
+<meta name="description" content="The AVR Maestro assistant answers questions about your own Denon or Marantz receiver and can change settings for you, using a model that runs on your device." />
 <meta name="keywords" content="Denon AVR assistant, Marantz voice control app, on device AI receiver, ask my receiver, AVR Maestro assistant, Apple Intelligence Denon, Gemini Nano AVR app" />
 <meta name="author" content="MiyaraHub Technologies LLC" />
 <meta name="robots" content="index, follow, max-image-preview:large" />
 <meta name="theme-color" content="#ff6e40" />
 <link rel="canonical" href="https://avrmaestro.com/guide/assistant/" />
-<meta property="og:title" content="The Assistant - Ask Your Receiver Anything | AVR Maestro" />
-<meta property="og:description" content="A model that runs on your phone, answering from your own receiver's readings." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://avrmaestro.com/guide/assistant/" />
 <meta property="og:site_name" content="AVR Maestro" />
-<meta property="og:image" content="https://avrmaestro.com/screenshots/assistant-answers.png" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:title" content="On-Device Assistant for Denon &amp; Marantz - AVR Maestro" />
+<meta property="og:description" content="The AVR Maestro assistant answers questions about your own Denon or Marantz receiver and can change settings for you, using a model that runs on your device." />
+<meta property="og:url" content="https://avrmaestro.com/guide/assistant/" />
+<meta property="og:image" content="https://avrmaestro.com/assets/og-card.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="AVR Maestro, an independent remote app for Denon and Marantz AV receivers" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="The Assistant - AVR Maestro" />
-<meta name="twitter:description" content="Ask your receiver a question. The answer comes from its own readings." />
-<meta name="twitter:image" content="https://avrmaestro.com/screenshots/assistant-answers.png" />
-<link rel="icon" type="image/png" sizes="48x48" href="../../assets/favicon-48.png" />
-<link rel="apple-touch-icon" href="../../assets/apple-touch-icon.png" />
+<meta name="twitter:title" content="On-Device Assistant for Denon &amp; Marantz - AVR Maestro" />
+<meta name="twitter:description" content="The AVR Maestro assistant answers questions about your own Denon or Marantz receiver and can change settings for you, using a model that runs on your device." />
+<meta name="twitter:image" content="https://avrmaestro.com/assets/og-card.png" />
+<meta name="twitter:image:alt" content="AVR Maestro, an independent remote app for Denon and Marantz AV receivers" />
+<link rel="icon" href="/assets/favicon.ico" sizes="any" />
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
+<link rel="icon" type="image/png" sizes="48x48" href="/assets/favicon-48.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
 <link rel="stylesheet" href="../../assets/site.css" />
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://avrmaestro.com/#organization",
+      "name": "MiyaraHub Technologies LLC",
+      "url": "https://miyarahub.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://avrmaestro.com/assets/logo-square.jpg",
+        "width": 2048,
+        "height": 2048
+      },
+      "sameAs": [
+        "https://github.com/MiyaraHub"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://avrmaestro.com/#website",
+      "url": "https://avrmaestro.com/",
+      "name": "AVR Maestro",
+      "description": "AVR Maestro is an independent app for controlling Denon and Marantz AV receivers over your local network.",
+      "publisher": {
+        "@id": "https://avrmaestro.com/#organization"
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "TechArticle",
+      "@id": "https://avrmaestro.com/guide/assistant/#article",
+      "headline": "Ask the assistant - the answer comes from your receiver",
+      "description": "The AVR Maestro assistant answers questions about your own Denon or Marantz receiver and can change settings for you, using a model that runs on your device.",
+      "image": "https://avrmaestro.com/screenshots/assistant-answers.png",
+      "datePublished": "2026-08-17",
+      "dateModified": "2026-10-01",
+      "author": {
+        "@id": "https://avrmaestro.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://avrmaestro.com/#organization"
+      },
+      "mainEntityOfPage": "https://avrmaestro.com/guide/assistant/",
+      "isPartOf": {
+        "@id": "https://avrmaestro.com/#website"
+      },
+      "about": {
+        "@id": "https://avrmaestro.com/#app"
+      },
+      "inLanguage": "en"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
   "@type": "FAQPage",
+  "@id": "https://avrmaestro.com/guide/assistant/#faq",
   "mainEntity": [
     {
       "@type": "Question",
       "name": "Does the assistant send my data anywhere?",
-      "acceptedAnswer": {"@type": "Answer", "text": "The language model runs on your device and your receiver is on your own network, so a typed question and its answer do not leave your hardware. Voice input is the exception: turning speech into text is done by your phone's own recognizer, and on most phones that means the audio goes to the platform vendor to be transcribed. Typing avoids that entirely."}
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The language model runs on your device and your receiver is on your own network, so a typed question and its answer do not leave your hardware. Voice input is the exception: turning speech into text is done by your phone's own recognizer, and on most phones that means the audio goes to the platform vendor to be transcribed. Typing avoids that entirely."
+      }
     },
     {
       "@type": "Question",
       "name": "Why does the assistant say my device cannot run it?",
-      "acceptedAnswer": {"@type": "Answer", "text": "The assistant needs an on-device model: Apple Intelligence on iPhone, iPad and Mac, or Gemini Nano through Google AICore on Android. Plenty of otherwise capable devices do not have one. The app reports exactly which state it is in rather than hiding the feature, so you know whether it is a download, a setting, or hardware."}
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The assistant needs an on-device model: Apple Intelligence on iPhone, iPad and Mac, or Gemini Nano through Google AICore on Android. Plenty of otherwise capable devices do not have one. The app reports exactly which state it is in rather than hiding the feature, so you know whether it is a download, a setting, or hardware."
+      }
     },
     {
       "@type": "Question",
       "name": "Will the assistant change things without asking?",
-      "acceptedAnswer": {"@type": "Answer", "text": "It acts directly on power, mute, input and turning the volume down, because all of those are trivially undone by the person in the room. Turning the volume UP always asks first, because that is the one action whose worst case is a damaged driver."}
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It acts directly on power, mute, input and turning the volume down, because all of those are trivially undone by the person in the room. Turning the volume UP always asks first, because that is the one action whose worst case is a damaged driver."
+      }
     },
     {
       "@type": "Question",
       "name": "Why does it sometimes say it cannot tell me something?",
-      "acceptedAnswer": {"@type": "Answer", "text": "Because it will not guess. Every figure it gives you comes from a reading taken off your receiver, so if a reading did not arrive it says the subsystem could not be read rather than inventing a plausible number. A wrong answer that sounds right is worse than no answer."}
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Because it will not guess. Every figure it gives you comes from a reading taken off your receiver, so if a reading did not arrive it says the subsystem could not be read rather than inventing a plausible number. A wrong answer that sounds right is worse than no answer."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://avrmaestro.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "User Guide",
+      "item": "https://avrmaestro.com/guide/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "The assistant",
+      "item": "https://avrmaestro.com/guide/assistant/"
     }
   ]
 }
@@ -56,7 +160,7 @@
 
 <header class="nav">
   <div class="wrap">
-    <a class="brand" href="/"><img src="../../assets/avr-maestro-icon.png" alt="AVR Maestro icon" /> AVR Maestro</a>
+    <a class="brand" href="/"><img src="/assets/avr-maestro-icon-64.png" alt="AVR Maestro" width="30" height="30" decoding="async" /> AVR Maestro</a>
     <button class="nav-toggle" aria-label="Menu" onclick="document.getElementById('m').classList.toggle('open')">&#9776;</button>
     <nav id="m">
       <a href="/">Home</a>
@@ -73,7 +177,7 @@
   <div class="wrap">
     <div class="crumb"><a href="/">Home</a> &rsaquo; <a href="/guide/">User Guide</a> &rsaquo; The assistant</div>
     <div class="eyebrow">Ask your receiver</div>
-    <h1>Ask it a question - <span class="g">the answer comes from your receiver</span></h1>
+    <h1>Ask the assistant - <span class="g">the answer comes from your receiver</span></h1>
     <p>Most assistants know a lot about receivers in general. This one knows about yours: the volume it is on right now, the Speaker Preset it is running, whether Dynamic EQ is on, what it is decoding this second. It reads your own receiver and answers from that, using a model that runs on your device rather than a service somewhere else.</p>
   </div>
 </div>
@@ -87,8 +191,8 @@
     <p class="lead">Type a question, or hold the microphone and say it. There is nothing to sign into, no key to paste, and no account. If your device can run an on-device model, the assistant works the moment you open it.</p>
     <p class="lead">Ask it in your own words. "How loud is it", "what am I watching this on", "which Dirac slot is loaded", "is Dynamic EQ on" - it resolves what you meant against the things your receiver actually reports, so you do not have to know what the setting is called.</p>
     <div class="gallery" style="grid-template-columns:repeat(2,1fr);max-width:640px;margin:30px auto 0">
-      <figure><img alt="The assistant's opening screen with suggested questions and a microphone button" src="../../screenshots/assistant.png" /><figcaption>Open it and ask, or tap one of the suggestions</figcaption></figure>
-      <figure><img alt="Four questions answered with the subsystems each answer read, then a request to raise the volume held behind a Yes or No" src="../../screenshots/assistant-answers.png" /><figcaption>Every answer names what it read. Anything that would raise the room asks first</figcaption></figure>
+      <figure><img alt="The assistant's opening screen with suggested questions and a microphone button" src="../../screenshots/assistant.png" width="1080" height="2404" decoding="async" /><figcaption>Open it and ask, or tap one of the suggestions</figcaption></figure>
+      <figure><img alt="Four questions answered with the subsystems each answer read, then a request to raise the volume held behind a Yes or No" src="../../screenshots/assistant-answers.png" width="1080" height="2163" loading="lazy" decoding="async" /><figcaption>Every answer names what it read. Anything that would raise the room asks first</figcaption></figure>
     </div>
   </div>
 </section>
@@ -113,7 +217,7 @@
       </tbody>
     </table>
     <div class="gallery" style="grid-template-columns:repeat(1,1fr);max-width:320px;margin:26px 0 0">
-      <figure><img alt="The Signal Info card showing audio in and out, video in and out, sample rate, color space, colorimetry and pixel depth" src="../../screenshots/signal-info.png" /><figcaption>The readings it answers from are the ones on your screens</figcaption></figure>
+      <figure><img alt="The Signal Info card showing audio in and out, video in and out, sample rate, color space, colorimetry and pixel depth" src="../../screenshots/signal-info.png" width="1324" height="2644" loading="lazy" decoding="async" /><figcaption>The readings it answers from are the ones on your screens</figcaption></figure>
     </div>
 
     <div class="note" style="margin-top:22px">Under each answer it prints <b>what it read</b> to produce it. That line is recorded, not written by the model, so it cannot be invented - and it is the fastest way to tell a real answer from a confident-sounding wrong one.</div>
@@ -222,13 +326,40 @@
   </div>
 </section>
 
+<section id="faq">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Common questions</div>
+      <h2>The assistant, answered</h2>
+    </div>
+    <details open><summary>Does the assistant send my data anywhere?</summary><div class="body">The language model runs on your device and your receiver is on your own network, so a typed question and its answer do not leave your hardware. Voice input is the exception: turning speech into text is done by your phone&#x27;s own recognizer, and on most phones that means the audio goes to the platform vendor to be transcribed. Typing avoids that entirely.</div></details>
+    <details><summary>Why does the assistant say my device cannot run it?</summary><div class="body">The assistant needs an on-device model: Apple Intelligence on iPhone, iPad and Mac, or Gemini Nano through Google AICore on Android. Plenty of otherwise capable devices do not have one. The app reports exactly which state it is in rather than hiding the feature, so you know whether it is a download, a setting, or hardware.</div></details>
+    <details><summary>Will the assistant change things without asking?</summary><div class="body">It acts directly on power, mute, input and turning the volume down, because all of those are trivially undone by the person in the room. Turning the volume UP always asks first, because that is the one action whose worst case is a damaged driver.</div></details>
+    <details><summary>Why does it sometimes say it cannot tell me something?</summary><div class="body">Because it will not guess. Every figure it gives you comes from a reading taken off your receiver, so if a reading did not arrive it says the subsystem could not be read rather than inventing a plausible number. A wrong answer that sounds right is worse than no answer.</div></details>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">More of the guide</div>
+      <h2>Other AVR Maestro guides</h2>
+    </div>
+    <p class="lead"><a href="/guide/getting-started/">Getting started</a> &middot; <a href="/guide/home/">Home Screen</a> &middot; <a href="/guide/scenes/">Scenes</a> &middot; <a href="/guide/custom-icons/">Custom Icons</a> &middot; <a href="/guide/sound/">Sound</a> &middot; <a href="/guide/graphic-eq/">Graphic EQ</a> &middot; <a href="/guide/speakers/">Speakers</a> &middot; <a href="/guide/locked-controls/">Why a control is locked</a> &middot; <a href="/guide/home-automation/">Home Automation</a> &middot; <a href="/guide/home-assistant-dashboard/">Home Assistant dashboard</a> &middot; <a href="/guide/multi-zone/">Zones</a> &middot; <a href="/guide/remote/">Remote</a> &middot; <a href="/guide/radio/">Radio (FM/AM)</a> &middot; <a href="/guide/on-screen-display/">On-Screen Display</a> &middot; <a href="/guide/settings/">Settings</a> &middot; <a href="/guide/languages/">Languages</a> &middot; <a href="/guide/volume/">Volume Controls</a> &middot; <a href="/guide/backup/">Backup &amp; Restore</a> &middot; <a href="/guide/now-playing/">Now Playing &amp; HEOS</a></p>
+  </div>
+</section>
+
 <footer>
   <div class="wrap">
     <div class="flinks">
       <a href="/">Home</a>
       <a href="/guide/">User Guide</a>
+      <a href="/guide/getting-started/">Getting started</a>
       <a href="/receivers/">Receivers</a>
+      <a href="/audyssey-dirac-control/">Audyssey &amp; Dirac</a>
+      <a href="/audyssey-vs-dirac/">Audyssey vs Dirac</a>
       <a href="/best-denon-marantz-app/">Why switch</a>
+      <a href="/help/">Help</a>
       <a href="https://play.google.com/store/apps/details?id=com.miyarahub.avr_maestro">Google Play</a>
       <a href="https://apps.apple.com/us/app/avr-maestro-for-denon-marantz/id6762881597">App Store</a>
       <a href="https://apps.microsoft.com/detail/9P4M7W4J5106">Microsoft Store</a>
@@ -236,7 +367,7 @@
       <a href="https://www.facebook.com/groups/avrmaestro">Facebook</a>
       <a href="https://miyarahub.com">MiyaraHub</a>
     </div>
-    <p class="legal">AVR Maestro is an independent app by MiyaraHub Technologies LLC and is not affiliated with, endorsed by, or sponsored by Denon, Marantz, D&amp;M Holdings or Sound United. Denon, Marantz, HEOS, Audyssey and Dirac Live are trademarks of their respective owners.</p>
+    <p class="legal">AVR Maestro is an independent app by MiyaraHub Technologies LLC and is not affiliated with, endorsed by, or sponsored by Denon, Marantz, D&amp;M Holdings, Sound United or any other company named on this page. Denon, Marantz, HEOS, Audyssey, Dirac Live, IMAX, Apple Intelligence and Gemini Nano are trademarks of their respective owners, used here only for identification.</p>
   </div>
 </footer>
 

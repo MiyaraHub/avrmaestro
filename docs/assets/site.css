@@ -29,7 +29,7 @@ body{background:var(--panel);color:var(--ink);font-family:var(--body);line-heigh
   -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
 a{color:var(--signal);text-decoration:none;transition:color .15s}
 a:hover{color:var(--signal-deep)}
-img{max-width:100%;display:block}
+img{max-width:100%;height:auto;display:block}
 ::selection{background:var(--signal-soft);color:var(--ink)}
 .wrap{max-width:var(--maxw);margin:0 auto;padding:0 26px}
 
