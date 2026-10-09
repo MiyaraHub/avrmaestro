@@ -3,7 +3,10 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://avrmaestro.com/</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-10-09</lastmod>
+    <image:image><image:loc>https://avrmaestro.com/screenshots/home-smartselect.png</image:loc></image:image>
+    <image:image><image:loc>https://avrmaestro.com/screenshots/scenes-guided-purpose.png</image:loc></image:image>
+    <image:image><image:loc>https://avrmaestro.com/screenshots/onboarding-welcome.png</image:loc></image:image>
     <image:image><image:loc>https://avrmaestro.com/screenshots/dashboard.png</image:loc></image:image>
     <image:image><image:loc>https://avrmaestro.com/screenshots/remote-main.png</image:loc></image:image>
     <image:image><image:loc>https://avrmaestro.com/screenshots/sound-audyssey.png</image:loc></image:image>
@@ -40,11 +43,11 @@
   </url>
   <url>
     <loc>https://avrmaestro.com/best-denon-marantz-app/</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-10-09</lastmod>
   </url>
   <url>
     <loc>https://avrmaestro.com/guide/</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-10-09</lastmod>
   </url>
   <url>
     <loc>https://avrmaestro.com/help/</loc>
@@ -56,7 +59,7 @@
   </url>
   <url>
     <loc>https://avrmaestro.com/guide/assistant/</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <image:image><image:loc>https://avrmaestro.com/screenshots/assistant.png</image:loc></image:image>
     <image:image><image:loc>https://avrmaestro.com/screenshots/assistant-answers.png</image:loc></image:image>
     <image:image><image:loc>https://avrmaestro.com/screenshots/signal-info.png</image:loc></image:image>
@@ -73,7 +76,12 @@
   </url>
   <url>
     <loc>https://avrmaestro.com/guide/getting-started/</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-10-09</lastmod>
+    <image:image><image:loc>https://avrmaestro.com/screenshots/onboarding-welcome.png</image:loc></image:image>
+    <image:image><image:loc>https://avrmaestro.com/screenshots/onboarding-receivers.png</image:loc></image:image>
+    <image:image><image:loc>https://avrmaestro.com/screenshots/onboarding-tabs.png</image:loc></image:image>
+    <image:image><image:loc>https://avrmaestro.com/screenshots/onboarding-scenes.png</image:loc></image:image>
+    <image:image><image:loc>https://avrmaestro.com/screenshots/onboarding-support.png</image:loc></image:image>
     <image:image><image:loc>https://avrmaestro.com/screenshots/settings-main.png</image:loc></image:image>
     <image:image><image:loc>https://avrmaestro.com/screenshots/dashboard.png</image:loc></image:image>
   </url>
@@ -109,13 +117,13 @@
   </url>
   <url>
     <loc>https://avrmaestro.com/guide/home/</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <image:image><image:loc>https://avrmaestro.com/screenshots/dashboard.png</image:loc></image:image>
     <image:image><image:loc>https://avrmaestro.com/screenshots/dashboard-customize.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://avrmaestro.com/guide/languages/</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <image:image><image:loc>https://avrmaestro.com/screenshots/lang-language-picker-1.png</image:loc></image:image>
     <image:image><image:loc>https://avrmaestro.com/screenshots/lang-home-de.png</image:loc></image:image>
     <image:image><image:loc>https://avrmaestro.com/screenshots/lang-home-ja.png</image:loc></image:image>
@@ -138,7 +146,7 @@
   </url>
   <url>
     <loc>https://avrmaestro.com/guide/multi-zone/</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <image:image><image:loc>https://avrmaestro.com/screenshots/zones.png</image:loc></image:image>
   </url>
   <url>
@@ -159,21 +167,27 @@
   </url>
   <url>
     <loc>https://avrmaestro.com/guide/remote/</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <image:image><image:loc>https://avrmaestro.com/screenshots/remote-main.png</image:loc></image:image>
     <image:image><image:loc>https://avrmaestro.com/screenshots/remote-inputs.png</image:loc></image:image>
     <image:image><image:loc>https://avrmaestro.com/screenshots/remote-volume-display.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://avrmaestro.com/guide/scenes/</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <image:image><image:loc>https://avrmaestro.com/screenshots/scenes-list.png</image:loc></image:image>
-    <image:image><image:loc>https://avrmaestro.com/screenshots/scenes-empty.png</image:loc></image:image>
-    <image:image><image:loc>https://avrmaestro.com/screenshots/scenes-save-dialog.png</image:loc></image:image>
+    <image:image><image:loc>https://avrmaestro.com/screenshots/scenes-add.png</image:loc></image:image>
+    <image:image><image:loc>https://avrmaestro.com/screenshots/scenes-guided-purpose.png</image:loc></image:image>
+    <image:image><image:loc>https://avrmaestro.com/screenshots/scenes-guided-controls.png</image:loc></image:image>
+    <image:image><image:loc>https://avrmaestro.com/screenshots/scenes-guided-choose.png</image:loc></image:image>
+    <image:image><image:loc>https://avrmaestro.com/screenshots/scenes-guided-review.png</image:loc></image:image>
+    <image:image><image:loc>https://avrmaestro.com/screenshots/scenes-scratch-controls.png</image:loc></image:image>
+    <image:image><image:loc>https://avrmaestro.com/screenshots/scenes-options.png</image:loc></image:image>
+    <image:image><image:loc>https://avrmaestro.com/screenshots/remote-smartselect.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://avrmaestro.com/guide/settings/</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <image:image><image:loc>https://avrmaestro.com/screenshots/settings-tjmode.png</image:loc></image:image>
   </url>
   <url>
